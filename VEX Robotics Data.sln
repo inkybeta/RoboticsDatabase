@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboticsDatabase", "VEX Robotics Data\RoboticsDatabase.csproj", "{FB458A79-CC8A-4096-902B-B0425F7FD392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboticsDatabase.Core", "VexDatabase.Core\RoboticsDatabase.Core.csproj", "{22DF9F1D-421C-4B34-A304-293ECC7CC1BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboticsDatabase.Networking", "VexDatabase.Networking\RoboticsDatabase.Networking.csproj", "{01F2DE6F-F49D-4F09-BA42-79E328C88DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboticsDatabase.Database", "RoboticsDatabase.Data\RoboticsDatabase.Database.csproj", "{8D6F3A4D-86F8-4BAF-B8A7-5D04ABBE6D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboticsDatabase.Business", "RoboticsDatabase.Business\RoboticsDatabase.Business.csproj", "{187301A2-DE45-47D4-B9B8-B1612885DB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB458A79-CC8A-4096-902B-B0425F7FD392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB458A79-CC8A-4096-902B-B0425F7FD392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB458A79-CC8A-4096-902B-B0425F7FD392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB458A79-CC8A-4096-902B-B0425F7FD392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DF9F1D-421C-4B34-A304-293ECC7CC1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DF9F1D-421C-4B34-A304-293ECC7CC1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DF9F1D-421C-4B34-A304-293ECC7CC1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DF9F1D-421C-4B34-A304-293ECC7CC1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F2DE6F-F49D-4F09-BA42-79E328C88DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F2DE6F-F49D-4F09-BA42-79E328C88DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F2DE6F-F49D-4F09-BA42-79E328C88DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F2DE6F-F49D-4F09-BA42-79E328C88DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6F3A4D-86F8-4BAF-B8A7-5D04ABBE6D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6F3A4D-86F8-4BAF-B8A7-5D04ABBE6D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6F3A4D-86F8-4BAF-B8A7-5D04ABBE6D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6F3A4D-86F8-4BAF-B8A7-5D04ABBE6D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187301A2-DE45-47D4-B9B8-B1612885DB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187301A2-DE45-47D4-B9B8-B1612885DB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187301A2-DE45-47D4-B9B8-B1612885DB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187301A2-DE45-47D4-B9B8-B1612885DB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
